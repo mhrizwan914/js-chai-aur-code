@@ -9,3 +9,22 @@ console.log(
 ); // Codereadability should be high
 
 console.log("Hitesh");
+
+let name = "Rizwan";
+let age = 18;
+let isLoggedIn = true;
+
+// Premetive Data Types
+    // number => 2 to power 53
+    // bigint
+    // string => ""
+    // boolean => true/false
+    // null => standalone value
+    // undefined 
+    // symbol => unique
+
+// Non-Premetive Data Types
+    // Object
+
+console.log(typeof null);
+console.log(typeof undefined);
