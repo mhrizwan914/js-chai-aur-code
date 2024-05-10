@@ -19,6 +19,15 @@ specificDate = new Date("2022-12-13");
 
 let timeStamps = Date.now();
 
-console.log(timeStamps);
-console.log(specificDate.getTime());
-console.log(timeStamps / 1000);
+// console.log(timeStamps);
+// console.log(specificDate.getTime());
+// console.log(timeStamps / 1000);
+
+let newDate = new Date();
+console.log(newDate.getDay());
+console.log(newDate.getFullYear());
+console.log(newDate.getMinutes());
+console.log(newDate.toLocaleString("default", {
+    weekday: "short",
+    month: "2-digit"
+}));
