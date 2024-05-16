@@ -12,4 +12,13 @@ const user = {
     }
 }
 
-log
+// Object.freeze(user);
+
+user.onLoggedOut = function () {
+    console.log(`Good Bye, ${this.name}`);
+}
+
+console.log(user.name);
+console.log(user["Zip Code"]);
+console.log(user.onLoggedIn());
+console.log(user.onLoggedOut());
