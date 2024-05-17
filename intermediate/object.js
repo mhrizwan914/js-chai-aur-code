@@ -31,7 +31,17 @@ const obj2 = {b: 3, c: 4};
 // const obj3 = Object.assign({}, obj1, obj2);
 const obj3 = {...obj1, ...obj2};
 
-console.log(Object.keys(obj3));
-console.log(Object.values(obj3));
-console.log(Object.entries(obj3));
-console.log(obj3.hasOwnProperty('c'));
+// console.log(Object.keys(obj3));
+// console.log(Object.values(obj3));
+// console.log(Object.entries(obj3));
+// console.log(obj3.hasOwnProperty('c'));
+
+const course = {
+    name: "JS With Hitesh",
+    price: 253,
+    nameOfInstructor: "Hitesh"
+}
+
+const {nameOfInstructor: teacher} = course;
+
+console.log(teacher);
